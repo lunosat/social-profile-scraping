@@ -31,7 +31,7 @@ import { SocialScrapper } from "social-profile-scraping";
 
 const test = async () => {
   try {
-    const data = await SocialScrapper.whatsapp("5511912032128"); // Replace with a valid phone number
+    const data = await SocialScrapper.whatsapp("5511000000000"); // Replace with a valid phone number
     console.log(data);
   } catch (error) {
     console.error("Error scraping:", error);
@@ -47,7 +47,7 @@ test();
 {
   "picture": "https://example.com/profile-picture.jpg",
   "username": "John Doe",
-  "phone": "5511912032128"
+  "phone": "5511000000000"
 }
 ```
 
@@ -60,7 +60,7 @@ test();
 Scrapes a public WhatsApp profile.
 
 #### Parameters:
-- `phone` (string): The phone number in international format (e.g., `5511912032128`).
+- `phone` (string): The phone number in international format (e.g., `5511000000000`).
 
 #### Returns:
 A Promise resolving to an object containing:
@@ -70,7 +70,7 @@ A Promise resolving to an object containing:
 
 #### Example:
 ```javascript
-const profile = await SocialScrapper.whatsapp("5511912032128");
+const profile = await SocialScrapper.whatsapp("5511000000000");
 console.log(profile);
 ```
 
@@ -83,7 +83,7 @@ If an error occurs during scraping, it will be thrown as an exception. Use `try/
 Example:
 ```javascript
 try {
-  const data = await SocialScrapper.whatsapp("5511912032128");
+  const data = await SocialScrapper.whatsapp("5511000000000");
   console.log(data);
 } catch (error) {
   console.error("Error:", error.message);
