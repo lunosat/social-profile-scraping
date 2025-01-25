@@ -1,12 +1,12 @@
 import whatsappScrapper from "./scrappers/whatsapp";
 
-class SocialScrapper {
+export class SocialScrapper {
   /**
    * Scrapes a public WhatsApp profile
    * @param phone - Phone number in international format (e.g., 5511999999999)
    * @returns WhatsApp profile data
    */
-  static whatsapp = async (phone: string) => {
+    static whatsapp = async (phone: string) => {
     try {
       const profile = await whatsappScrapper(phone);
       return profile;
@@ -19,4 +19,3 @@ class SocialScrapper {
   };
 }
 
-export default SocialScrapper;

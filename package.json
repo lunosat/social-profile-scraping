@@ -1,7 +1,7 @@
 {
   "name": "social-profile-scraping",
-  "version": "1.0.0",
-  "main": "src/index.js",
+  "version": "1.0.2",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
@@ -14,8 +14,16 @@
     "automation",
     "data-extraction"
   ],
-  "author": "Your Name <your.email@example.com>",
-  "license": "MIT",
+  "author": "Lunosat <social@lunosat.dev>",    
+  "license": "MIT",                                  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lunosat/social-profile-scraping.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lunosat/social-profile-scraping/issues"
+  },
+  "homepage": "https://github.com/lunosat/social-profile-scraping#readme",
   "description": "A lightweight library for scraping public social media profiles, providing profile information such as usernames, pictures, and more.",
   "dependencies": {
     "axios": "^1.7.9",
