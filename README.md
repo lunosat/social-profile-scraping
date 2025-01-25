@@ -122,7 +122,3 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 ## Issues
 
 If you encounter any issues, feel free to open an issue on the [GitHub repository](https://github.com/lunosat/social-profile-scraping/issues).
-
----
-
-With this README, your project will have a professional and user-friendly introduction for others to understand and use it effectively. 🚀
