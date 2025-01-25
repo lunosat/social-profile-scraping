@@ -1,0 +1,24 @@
+{
+  "name": "social-profile-scraping",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "social-media",
+    "scraping",
+    "profile-scraping",
+    "web-scraping",
+    "automation",
+    "data-extraction"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "description": "A lightweight library for scraping public social media profiles, providing profile information such as usernames, pictures, and more.",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0"
+  }
+}
